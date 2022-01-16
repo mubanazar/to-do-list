@@ -1,0 +1,62 @@
+.container{
+    /* background-color: blue; */
+    width: 57%;
+    font-size: 300%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+.heading{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    gap: 38%;
+}
+
+.tasklist{
+    display: inline-flex;
+}
+.tasklist #task{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tasklist #list , .text{
+    font-family: 'Raleway', sans-serif;
+    color: #999999; 
+}
+.text{
+    font-size: 70%;
+}
+.material-icons.add{
+    font-size: 70%;
+    color: #E74C3C;
+}
+.icon-text{
+    margin-right: 0%;
+}
+.container2{
+    display: flex;
+    /* background-color: cadetblue; */
+    width:70%;
+    height:45vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    justify-content: space-evenly;
+}
+.paris1 ,.paris2 ,.paris3{
+    border:#E74C3C 1.9px solid;
+    border-radius: 10px;
+    padding: 0.5% 3% 3% 3%;
+    width: 15%;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 10px 10px 20px #DCDCDC;
+}
+h3{
+    color:#E74C3C
+}
+strike{
+    color: #FF0000;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}

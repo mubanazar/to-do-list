@@ -1,0 +1,94 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto ;
+    margin-top: 3%;
+    gap: 0%;
+}
+.item1 h1{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 300%;
+}
+.item1 hr{
+    display: inline-block;
+    text-align: center;
+    width: 15%;
+    position:relative;
+}
+.item2{
+    font-size: 200%;
+    color: #DCDCDC;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.item2 .icontext{
+    margin-top: 2%;
+}
+.item2 .material-icons{
+    color: white;
+    background-color: #E74C3C;
+    border-radius: 50%;
+    font-size: 80%;
+}
+.item3{
+    border:#E74C3C 2px solid;
+    border-radius: 10px;
+    width: 20%;
+    height:95%;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 10px 10px 20px #DCDCDC;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2%;
+    font-size: 150%;
+  
+}
+.item3 h3{
+    color: #E74C3C;
+    font-family: 'Open Sans', sans-serif;
+}
+.item3 strike{
+    color: red;
+}
+.item3 span{
+    float: right;
+    margin-right: 10%;
+}
+.material-icons.add{
+    color: #E74C3C;
+}
+
+/* for addpop  */
+
+.blur-bg{
+    position: relative;
+    z-index: -1;
+}
+.addpop{
+    position: fixed;
+    top: 30%;
+    z-index:1;
+    border: #E74C3C 2px solid;
+    border-radius:10px;
+    width: 60vh;
+    height: 30vh;
+    text-align: center;
+    background-color: white;
+    margin-left: 30%;
+}
+.addpop button{
+    border: solid #E74C3C ;
+    background-color: #E74C3C;
+    border-radius: 30px;
+    padding: 2%;
+    color: white;
+    width: 25%;
+}
+.addpop h3{
+    font-family: 'Raleway', sans-serif; 
+    color: #E74C3C;
+}
